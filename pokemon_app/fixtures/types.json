@@ -1,0 +1,37 @@
+[
+  {
+    "model": "pokemon_app.Type",
+    "pk": 1,
+    "fields": {
+      "name": "Grass"
+    }
+  },
+  {
+    "model": "pokemon_app.Type",
+    "pk": 2,
+    "fields": {
+      "name": "Water"
+    }
+  },
+  {
+    "model": "pokemon_app.Type",
+    "pk": 3,
+    "fields": {
+      "name": "Fire"
+    }
+  },
+  {
+    "model": "pokemon_app.Type",
+    "pk": 4,
+    "fields": {
+      "name": "Flying"
+    }
+  },
+  {
+    "model": "pokemon_app.Type",
+    "pk": 5,
+    "fields": {
+      "name": "Poison"
+    }
+  }
+]

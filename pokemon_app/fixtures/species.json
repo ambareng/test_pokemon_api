@@ -1,0 +1,86 @@
+[
+  {
+    "model": "pokemon_app.Species",
+    "pk": 1,
+    "fields": {
+      "name": "Charizard",
+      "type": [3, 4]
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 2,
+    "fields": {
+      "name": "Charmeleon",
+      "type": [3],
+      "next_evolution": 1,
+      "level_to_evolve": 36
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 3,
+    "fields": {
+      "name": "Charmander",
+      "type": [3],
+      "next_evolution": 2,
+      "level_to_evolve": 16
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 4,
+    "fields": {
+      "name": "Venusaur",
+      "type": [1, 5]
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 5,
+    "fields": {
+      "name": "Ivysaur",
+      "type": [1, 5],
+      "next_evolution": 4,
+      "level_to_evolve": 36
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 6,
+    "fields": {
+      "name": "Bulbasaur",
+      "type": [1],
+      "next_evolution": 5,
+      "level_to_evolve": 16
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 7,
+    "fields": {
+      "name": "Blastoise",
+      "type": [2]
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 8,
+    "fields": {
+      "name": "Wartortle",
+      "type": [2],
+      "next_evolution": 7,
+      "level_to_evolve": 36
+    }
+  },
+  {
+    "model": "pokemon_app.Species",
+    "pk": 9,
+    "fields": {
+      "name": "Squirtle",
+      "type": [2],
+      "next_evolution": 8,
+      "level_to_evolve": 16
+    }
+  }
+]
