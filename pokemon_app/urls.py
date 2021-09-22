@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('types', TypeViewSet, basename='types')
-router.register('types', TypeDetailViewSet, basename='types')
+router.register('type', TypeDetailViewSet, basename='type')
 router.register('species', SpeciesViewSet, basename='species')
 router.register('species', SpeciesDetailViewSet, basename='species')
 router.register('pokemon', PokemonViewSet, basename='pokemon')

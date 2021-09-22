@@ -51,4 +51,4 @@ class Pokemon(BaseModel):
         super(Pokemon, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.nickname
+        return self.name
